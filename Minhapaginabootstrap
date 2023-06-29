@@ -13,7 +13,7 @@
 <body>
 
   
-    <nav class="navbar col-12 m-auto position-fixed navbar-expand-lg navbar-dark bg-dark" style="z-index: 999;"> 
+    <nav style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"  class="navbar col-12 m-auto position-fixed navbar-expand-lg navbar-dark bg-dark" style="z-index: 999;"> 
       <div class="container-fluid col-11 m-auto">
         <a class="navbar-brand" href="#">Minha Página</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,21 +22,17 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              <a class="nav-link active" aria-current="Inicio" href="#Inicio">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Sobre Mim</a>
+              <a class="nav-link" href="#Sobre Mim">Sobre Mim</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Meus Projetos
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Formulários</a></li>
-                <li><a class="dropdown-item" href="#">Receituarios</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Meus Projetos">Meus Projetos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contato">Contato</a>
+            </li>
        
               </ul>
             </li>
@@ -44,19 +40,18 @@
               <a class="nav-link">Contato</a>
             </li>
           </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
+          
         </div>
       </div>
     </nav>
     <br><br><br>
-    <div id="carouselExampleIndicators" class="carousel slide">
+    <div id="Inicio" class="carousel slide">
+      <h2 class="text-center">Inicio
+      </h2>
   <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#Inicio" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#Inicio" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#Inicio" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -69,91 +64,127 @@
       <img src="img/istockphoto-1393912497-612x612.jpg" class="d-block w-100" alt="...">
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+  <button class="carousel-control-prev" type="button" data-bs-target="#Inicio" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+  <button class="carousel-control-next" type="button" data-bs-target="#Inicio" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
 <br><br><br>
 </div>
-<div class="row row-cols-1 row-cols-md-2 g-4 col-11 m-auto">
-    <div class="col">
-      <div class="card">
-        <img src="img/metallic-3d-image-abstract-futuristic-600w-2288785777.webp" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Download</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-   Veja mais
-  </button>
-  
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-            <img src="img/metallic-3d-image-abstract-futuristic-600w-2288785777.webp">
-          BSHDFKAJSDFHGASDFKSKDJFHSKJHDFAJSD
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <img src="img/stock-photo-animated-character-d-image-of-white-robot-2299798245.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Profissões</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <img src="img/stock-photo-low-poly-d-image-of-mango-2304509033.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Cursos</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-        </div>
-      </div>
-    </div>
-      </div>
-    </div>
-  </div>
   <hr>
-<div class="col-11 m-auto">
-    <h2 class="text-center">Meu titulo</h2>
-    <p class="text-center">vdfhgasdfjhgajsdgfjgsdfjgsdfgjdsgfgdsfgdfgsdfgsdjgfvdfhgasdfjhgajsdgfjgsdfjgsdfgjdsgfgdsfgdf</p>
+  <br><br><br>
+  <br><br><br>
+<div id="Sobre Mim" class="col-11 m-auto">
+    <h2 class="text-center">Sobre Mim</h2>
+    <p class="text-center">vdfhgasdfjhgajsdgfjgsdfjgsdfgjdsgfgdsfgdfgsdfgsdjgfvdfhgasdfjhgajsdgfjgsdfjgsdfgjdsgfgdsfgdf
+      dfhgasdfjhgajsdgfjgsdfjgsdfgjdsgfgdsfgdfgsdfgsdjgfvdfhgasdfjhgajsdgfjgsdfjgsdfgjdsgfgdsfgdf
+      dfhgasdfjhgajsdgfjgsdfjgsdfgjdsgfgdsfgdfgsdfgsdjgfvdfhgasdfjhgajsdgfjgsdfjgsdfgjdsgfgdsfgdf
+      dfhgasdfjhgajsdgfjgsdfjgsdfgjdsgfgdsfgdfgsdfgsdjgfvdfhgasdfjhgajsdgfjgsdfjgsdfgjdsgfgdsfgdf
+      dfhgasdfjhgajsdgfjgsdfjgsdfgjdsgfgdsfgdfgsdfgsdjgfvdfhgasdfjhgajsdgfjgsdfjgsdfgjdsgfgdsfgdf
+      dfhgasdfjhgajsdgfjgsdfjgsdfgjdsgfgdsfgdfgsdfgsdjgfvdfhgasdfjhgajsdgfjgsdfjgsdfgjdsgfgdsfgdf
+      dfhgasdfjhgajsdgfjgsdfjgsdfgjdsgfgdsfgdfgsdfgsdjgfvdfhgasdfjhgajsdgfjgsdfjgsdfgjdsgfgdsfgdf
+      dfhgasdfjhgajsdgfjgsdfjgsdfgjdsgfgdsfgdfgsdfgsdjgfvdfhgasdfjhgajsdgfjgsdfjgsdfgjdsgfgdsfgdf
+      dfhgasdfjhgajsdgfjgsdfjgsdfgjdsgfgdsfgdfgsdfgsdjgfvdfhgasdfjhgajsdgfjgsdfjgsdfgjdsgfgdsfgdf
+    </p>
 </div>
- <hr>   
- <div class="col-11 m-auto">
-    <h2 class="text-center">Contato</h2>
-    <i class="fa-brands fa-square-whatsapp" style="color: #3b9b04;" font-size="150px;"></i>
-    
+<br><br><br>
+<br><br><br>
+<hr>
+<br><br><br>
+<br><br><br>
+<h2 class="text-center">Meus Projetos
+</h2>
+<div id="Meus Projetos"  class="row row-cols-1 row-cols-md-3 g-4 col-11 m-auto">
+  <div class="col">
+    <div class="card">
+      <img src="img/metallic-3d-image-abstract-futuristic-600w-2288785777.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Download</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+ Veja mais
+</button>
 
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <img src="img/metallic-3d-image-abstract-futuristic-600w-2288785777.webp">
+        BSHDFKAJSDFHGASDFKSKDJFHSKJHDFAJSD
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="img/stock-photo-animated-character-d-image-of-white-robot-2299798245.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Profissões</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="img/stock-photo-low-poly-d-image-of-mango-2304509033.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Cursos</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+    </div>
+  </div>
+</div>
+<br><br><br>
+<br><br><br>
+ <hr>  
+ <br><br><br>
+<br><br><br> 
+ <div id="Contato" class="col-11 m-auto">
+  <h2 class="text-center">Contato</h2>
+  <div class="m-auto" style="width: 150px;">
+    <form>
+      <div class="mb-3">
+        <label for="exampleInputFullName" class="form-label">Nome Completo</label>
+        <input type="text" class="form-control" id="exampleInputFullName">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputNumber" class="form-label">Celular</label>
+        <input type="text" class="form-control" id="exampleInputNamber">
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+ </div>
 
+ </div>
+ <br><br><br>
+<br><br><br> 
 
-
- </div>  
-<br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br>
+<footer  style="background-color:#edc7f5;" class="page-footer font-small blue p-5">
+  <div class="text-center">
+    <a class="text-dark" href="https://www.facebook.com/fermar26" style="text-decoration: none; text";">2021 Copyright: Front-End</a>
+  </div>
+</footer>
    
     
      
